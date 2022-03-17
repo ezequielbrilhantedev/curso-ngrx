@@ -28,6 +28,9 @@ export class CadastroUsuariosComponent implements OnInit {
       );
     } else {
       // this.usuarioService.updateUsuario(this.model);
+      this.store.dispatch(
+        fromUsuariosActions.UpdateUsuario({ payload: this.model })
+      );
     }
   }
 }

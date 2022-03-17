@@ -2,15 +2,9 @@
   "Usuarios": [
     {
       "id": 1,
-      "nome": "Usuario 1",
-      "idade": 35,
+      "nome": "Usuário 1",
+      "idade": "40",
       "perfil": "Administrador"
-    },
-    {
-      "id": 2,
-      "nome": "Usuario 2",
-      "idade": 55,
-      "perfil": "Diretor"
     },
     {
       "id": 3,

@@ -102,3 +102,9 @@ export const getUsuarioErro = createSelector(
   getUsuariosFeatureState,
   (state: UsuariosState) => state.error
 );
+
+export const getUsuariosAdmin = createSelector(
+  getUsuariosFeatureState,
+  (state: UsuariosState) =>
+    state.usuarios.filter((filter) => filter.perfil == 'Administrador')
+);
